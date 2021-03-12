@@ -19,7 +19,7 @@ Simulates many Blackjack games with assorted strategies and all the usual rules[
 
 ### A Note on Randomness
 
-No custom random number generators were used. From the Python documentation[2], the base `random` function generates `~Unif(0,1)` PRNGs with a cycle length of (2^19937 - 1). Because this is a simulation and not programmatic unit testing, I didn't see the need to create my own generator.
+No custom random number generators were used. From the Python documentation[2], the base `random` function generates `~Unif(0,1)` PRNGs with a cycle length of (2<sup>19,937</sup> - 1). Because this is a simulation and not programmatic unit testing, I didn't see the need to create my own generator.
 
 ## Strategies
 
